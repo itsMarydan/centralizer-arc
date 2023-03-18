@@ -1,0 +1,71 @@
+## Api Documentation
+
+### Clean Collection Data
+DELETE http://localhost:8000/api/clean/collection-data/bc-got-ifehrvnp/demos
+Accept: application/json
+
+### Clean Collection
+DELETE http://localhost:8000/api/clean/collection/bc-got-ifehrvnp/sweets
+Accept: application/json
+
+### Clean Database
+DELETE http://localhost:8000/api/clean/database/test
+Accept: application/json
+
+### Clean Content
+DELETE http://localhost:8000/api/clean/content/got-ifehrvnp/data
+Accept: application/json
+
+
+### Create New Content
+POST  http://localhost:8000/api/got-ifehrvnp/create-content/nobord
+Content-Type: application/json
+bc-user-id: 10011
+bc-role: actill8ms0000000
+
+{
+  "textInfo": "Texting my FUTURE HUSBAND HAWK",
+  "textTittle": "Benny More"
+
+}
+
+### Get Schema
+GET http://localhost:8000/api/got-ifehrvnp/content-schema/nobord
+Accept: application/json
+bc-user-id: 10011
+bc-role: actill8ms0000000
+
+### Get apps
+GET http://localhost:8000/api/apps
+Accept: application/json
+
+### Get apps by role
+GET http://localhost:8000/api/apps-by-role/actill8ms0000000
+Accept: application/json
+
+### Get all contents by appSlug
+GET http://localhost:8000/api/got-ifehrvnp/content-builders
+Accept: application/json
+
+### Update content
+PUT http://localhost:8000/api/got-ifehrvnp/update-content/nobord/2
+Content-Type: application/json
+bc-role: actill8ms0000000
+
+{
+  "textInfo": "Texting my Love HUSBAND HAWK",
+  "textTittle": "Benny More"
+
+}
+
+### Create Form Entry
+POST http://localhost:8000/api/got-ifehrvnp/create-form/prayer
+Content-Type: application/json
+bc-role: actill8ms0000000
+
+{
+  "name": "Benny More",
+  "prayerPoint": "<p>Praying for my future husband</p>",
+  "success": "ues",
+  "demo": "true"
+}

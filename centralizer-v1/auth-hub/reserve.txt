@@ -1,0 +1,18 @@
+// export async function addActions(ruleId, actions) {
+//     mongoConnect((client) => {
+//         let database = client.db(process.env.DB_NAME);
+//         let collection = database.collection(process.env.RULES_COLLECTION);
+//         collection.updateOne(
+//             { ruleId: ruleId },
+//             { $push: { actions: { $each: actions } } }
+//         ).then((result) => {
+//             console.log("[MONGO_CLIENT]::","[INFO]",`The provided rule actions have been registered successfully!`, result);
+//         }).catch((error) => {
+//             console.log("[MONGO_CLIENT]::","[ERROR]", "Add Rule Actions Job",error);
+//         });
+//     }).then(result => {
+//         console.log("[MONGO_CLIENT]::","[RESULT]", "Add Rule Actions Job",result);
+//     }).catch(error => {
+//         console.log("[MONGO_CLIENT]::","[ERROR]", "Add Rule Actions Job",error);
+//     });
+// }

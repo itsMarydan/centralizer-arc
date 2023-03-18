@@ -1,0 +1,7 @@
+version: "3.9"
+services: 
+  nub:
+    build: .
+    image: blueinit/nub:1.1.1
+    ports: 
+      - "8000:8000"

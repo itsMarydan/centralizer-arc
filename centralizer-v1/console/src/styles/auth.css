@@ -1,0 +1,48 @@
+.login-container {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.login-container img, .signup-container img {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.login-card, .signup-card {
+    border-radius: 0;
+    padding: 10px;
+    border-top: 3px solid #074ce7;
+    width: 500px;
+    margin: 30px auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.login-section {
+    /*margin-top: 20vh;*/
+}
+
+.login-button, .login-button:hover, .signup-button, .signup-button:hover {
+    background-color: #074ce7;
+    color: white;
+}
+
+.logout-button{
+    background-color: #db3e3e;
+    color: white;
+}
+/*Message to user*/
+.error {
+    font-size: 12px;
+    font-weight: 500;
+    color: #db3e3e;
+}
+
+@media screen and (max-width: 600px) {
+    .login-card{
+        width: 80% !important;
+    }
+}

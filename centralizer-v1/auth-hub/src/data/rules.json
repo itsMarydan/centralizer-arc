@@ -1,0 +1,76 @@
+[
+  {
+    "ruleId": 698393,
+    "ruleName": "READ",
+    "description": "allows read access to policy scope",
+    "actions": [
+      "READ"
+    ],
+    "isLocked": true
+  },
+  {
+    "ruleId": 698394,
+    "ruleName": "WRITE",
+    "description": "allows write access to policy scope",
+    "actions": [
+      "WRITE"
+    ],
+    "isLocked": true
+  },
+  {
+    "ruleId": 698395,
+    "ruleName": "DELETE",
+    "description": "allows delete access to policy scope",
+    "actions": [
+      "DELETE"
+    ],
+    "isLocked": true
+  },
+  {
+    "ruleId": 698396,
+    "ruleName": "PATCH",
+    "description": "allows patch access to policy scope",
+    "actions": [
+      "PATCH"
+    ],
+    "isLocked": true
+  },
+  {
+    "ruleId": 698397,
+    "ruleName": "UPDATE",
+    "description": "allows update access to policy scope",
+    "actions": [
+      "UPDATE"
+    ],
+    "isLocked": true
+  },
+  {
+    "ruleId": 698398,
+    "ruleName": "SUPER",
+    "description": "allows all access to policy scope",
+    "actions": [
+      "SUPER"
+    ],
+    "isLocked": true
+  },
+  {
+    "ruleId": 698399,
+    "ruleName": "READ/WRITE",
+    "description": "allows read and write access to policy scope",
+    "actions": [
+      "READ",
+      "WRITE"
+    ],
+    "isLocked": false
+  },
+  {
+    "ruleId": 698400,
+    "ruleName": "READ/UPDATE",
+    "description": "allows read and update access to policy scope",
+    "actions": [
+      "READ",
+      "WRITE"
+    ],
+    "isLocked": false
+  }
+]

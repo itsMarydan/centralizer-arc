@@ -1,0 +1,79 @@
+
+[
+  {
+    "roleId": 100000,
+    "roleName": "SUPER_ADMIN",
+    "roleDisplay": "SUPER ADMIN",
+    "policies": [100696],
+    "roleDelete": false,
+    "roleType": "USER",
+    "role": "actill8ms0000000",
+    "roleCreator": "system"
+  },
+  {
+    "roleId": 100011,
+    "roleName": "DEMO_ROLE",
+    "roleDisplay": "DEMO ADMIN",
+    "policies": [
+      110656, 514666
+    ],
+    "roleDelete": false,
+    "roleType": "USER",
+    "role": "jdgw2q9bo0000000",
+    "roleCreator": "irrelevant"
+  },
+  {
+    "roleId": 100022,
+    "roleName": "APPS_ADMIN",
+    "roleDisplay": "APPLICATIONS ADMIN",
+    "policies": [514666],
+    "roleDelete": false,
+    "roleType": "USER",
+    "role": "5xdcmc0okw000000",
+    "roleCreator": "system"
+  },
+  {
+    "roleId": 100033,
+    "roleName": "SYSTEM_ADMIN",
+    "roleDisplay": "SYSTEM ADMIN",
+    "policies": [110656],
+    "roleDelete": false,
+    "roleType": "USER",
+    "role": "5ptjcycgyo000000",
+    "roleCreator": "system"
+  },
+  {
+    "roleId": 100044,
+    "roleName": "SUPER_INTEGRATION",
+    "roleDisplay": "SUPER INTEGRATION",
+    "policies": [514666
+    ],
+    "roleDelete": false,
+    "roleType": "INTEGRATION",
+    "role": "a4szpk9isw000000",
+    "roleCreator": "system"
+  },
+  {
+    "roleId": 100055,
+    "roleName": "APP_INTEGRATION",
+    "roleDisplay": "APPLICATION INTEGRATION",
+    "policies": [
+        514666
+
+    ],
+    "roleDelete": false,
+    "roleType": "INTEGRATION",
+    "role": "viup5tkr00000000",
+    "roleCreator": "irrelevant"
+  },
+  {
+    "roleId": 100077,
+    "roleName": "somename",
+    "roleDisplay": "somedisplay",
+    "policies": [100696],
+    "roleDelete": false,
+    "roleType": "USER",
+    "role": "ak24oeb32o000000",
+    "roleCreator": "system"
+  }
+]

@@ -1,0 +1,72 @@
+### GET ROLES
+GET http://localhost:5000/api/roles
+Accept: application/json
+
+### GET ROLE BY ID
+GET http://localhost:5000/api/role/100011
+Accept: application/json
+
+### GET POLICIES
+GET http://localhost:5000/api/policies
+Accept: application/json
+
+### UPDATE RULE
+PUT http://localhost:5000/api/rule/698400
+Accept: application/json
+Content-Type: application/json
+
+{
+
+        "actions": [
+          "READ",
+          "WRITE",
+          "DELETE",
+          "PATCH"
+        ]
+
+}
+
+### LOAD RULES
+POST http://localhost:5000/api/rules
+Accept: application/json
+
+### LOAD ROLES
+POST http://localhost:5000/api/roles
+Accept: application/json
+
+### LOAD POLICIES
+POST http://localhost:5000/api/polices
+Accept: application/json
+
+### GET RULES
+GET http://localhost:5000/api/rules
+Accept: application/json
+
+### GET RULE
+GET http://localhost:5000/api/rule/776366
+Accept: application/json
+
+### CREATE RULE
+POST http://localhost:5000/api/rule
+Accept: application/json
+Content-Type: application/json
+
+{
+
+        "actions": [
+          "DELETE",
+          "PATCH",
+          "READ"
+        ]
+
+}
+
+### DELETE RULE
+DELETE http://localhost:5000/api/rule/698393
+Accept: application/json
+
+
+### DEVELOP
+GET http://localhost:5000/api/develop/all
+Accept: application/json
+

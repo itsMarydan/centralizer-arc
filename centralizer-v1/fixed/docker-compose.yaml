@@ -1,0 +1,19 @@
+version: '3'
+services:
+  console:
+    image: blueinit/console:1.1.0
+    restart: always
+    container_name: console
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - AUTH=/auth/api
+      - NUB=/nub/api
+      - DUTY=/files/api
+      - MANAGER=/manager/api
+      - REACT_APP_AUTH=/auth/api
+      - REACT_APP_NUB=/nub/api
+      - REACT_APP_DUTY=/files/api
+      - REACT_APP_MANAGER=/manager/api     
+    ports:
+      - "4000:80" 

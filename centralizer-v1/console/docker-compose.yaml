@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  console:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: blueinit/console:1.2.5
+    environment:
+      - NODE_ENV=development
+      - AUTH=/auth/api
+      - NUB=/nub/api
+      - DUTY=/files/api
+      - MANAGER=/manage/api
+    ports:
+      - "3000:4000"

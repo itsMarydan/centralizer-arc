@@ -1,0 +1,101 @@
+/*
+ * Navbar
+ */
+
+ .navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+     height: 100%;
+    color: #0b79f6 !important;
+    background-color: #050d15;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.dropdown-toggle { outline: 0; }
+
+.navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+}
+.nav-link{
+    padding: 0.5rem 0rem !important;
+}
+.nav-flush .nav-link {
+    border-radius: 0;
+}
+
+.btn-toggle {
+    display: inline-flex;
+    align-items: center;
+    /* padding: 1rem 1rem; */
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    padding: 20px !important;
+}
+.btn-toggle:hover,
+.btn-toggle:focus, .cp-2:hover, .cp-2:focus {
+    color: #fff !important;
+    background-color: rgb(17 24 39);
+}
+
+.btn-toggle::after {
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%0A%3E%3Cpath d='M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z' fill='white' /%3E%3C/svg%3E");
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+    position: absolute;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    right: 0;
+}
+
+.btn-toggle[aria-expanded="true"] {
+    color: #fff;
+}
+.btn-toggle[aria-expanded="true"]::after {
+    transform: rotate(90deg);
+}
+
+
+.btn-toggle-nav a {
+    display: inline-flex;
+    padding: 10px;
+    width: 80%;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;
+}
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+    background-color: rgb(17 24 39);
+    color: #fff;
+}
+
+.pad-20{
+    padding: 20px;
+}
+
+/* Name Icon for nav header */
+
+.name-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color:  rgb(17 24 39);;
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    /*margin: 10px;*/
+}
+
+.name-icon-box{
+    padding: 10px;
+}

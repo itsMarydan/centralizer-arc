@@ -1,0 +1,54 @@
+ [
+    {
+      "policyId": 100696,
+      "policyName": "ALL_ACCESS",
+      "policyDisplay": "ALL ACCESS",
+      "description": "Gives the highest level of access, absolute access. This should only be held by BlueContent Administrators and or Managers",
+      "rules": [
+        "READ",
+        "WRITE"
+      ],
+      "apps": [
+        "all"
+      ]
+    },
+    {
+      "policyId": 110656,
+      "policyName": "SYSTEM_ACCESS",
+      "policyDisplay": "SYSTEM ACCESS",
+      "description": "Gives access to system related services like, system manager and logs",
+      "rules": [
+        "READ",
+        "WRITE"
+      ],
+      "apps": [
+        "all"
+      ]
+    },
+    {
+      "policyId": 514666,
+      "policyName": "ALL_APPS_ACCESS",
+      "policyDisplay": "ALL APPLICATIONS ACCESS",
+      "description": "Gives Access to all applications in the BlueContent Space, this should only be used when absolute managment is required",
+      "rules": [
+        "READ",
+        "WRITE"
+      ],
+      "apps": [
+        "all"
+      ]
+    },
+    {
+      "policyId": 474696,
+      "policyName": "APP_ACCESS",
+      "policyDisplay": "APPLICATION ACCESS",
+      "description": "Gives access to applications specified in the role. App Slug must be provided at role set up to use this policy",
+      "rules": [
+        "READ",
+        "WRITE"
+      ],
+      "apps": [
+        "all"
+      ]
+    }
+  ]
